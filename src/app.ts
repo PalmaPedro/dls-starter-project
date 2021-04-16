@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res, next) => {
-  res.send("Server is running");
+  res.send("Server is now running");
 });
 
 app.get("/greet", (req, res, next) => {
